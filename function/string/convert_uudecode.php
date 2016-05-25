@@ -1,5 +1,13 @@
 <?php
+/*
+convert_uudecode — 解码一个 uuencode 编码的字符串
 
+说明
+
+string convert_uudecode ( string $data )
+convert_uudecode() 解码一个 uuencode 编码的字符串。
+
+*/
 $string = convert_uuencode("I love JANKZ!");
 echo $string.PHP_EOL;
 
